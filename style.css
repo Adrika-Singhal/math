@@ -1,0 +1,51 @@
+.page1
+{
+	background-color :rgb(255, 255, 255) ;
+}
+	
+	div{
+	background-image:url(https://th.bing.com/th/id/OIP.tOTMBffXOJECHo34N_DivAHaE8?w=274&h=183&c=7&o=5&dpr=1.5&pid=1.7);
+
+}
+
+	.login_div1
+	{
+		padding: 10px;
+		float: none;
+		border-radius: 0 px;
+		height: 1000;
+width: 900;
+	}
+h1{
+	color:darkblue
+}
+label {
+background-color:lawngreen;
+}
+img{
+	width:15%;
+	height: 15%;
+}
+h3{
+	background-color:green;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid blue;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.back{
+	background-color: lightgreen;
+}
+.send{
+background-color:green;
+}
+.inputtag{
+
+	color: cornsilk;
+}
