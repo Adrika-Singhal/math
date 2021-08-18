@@ -38,6 +38,7 @@ border-top: 10px solid blue;
 padding: 10px;
 float: none;
 text-align: left;
+width:50%;
 }
 .back{
 	background-color: lightgreen;
@@ -47,5 +48,6 @@ background-color:green;
 }
 .inputtag{
 
-	color: cornsilk;
+	background-color: cornsilk;
+	color:crimson;
 }

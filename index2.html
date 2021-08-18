@@ -2,6 +2,11 @@
 <html>
 <head>
 	<title>Math Quizz !</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -15,19 +20,27 @@
     <center>
         <h1>Math Quizz!  </h1>
         
-    
-        <img src="Untitled design.gif">
+
         
 </center>
 <center>
-	<h2 style="color: white;">Solve It!</h2>
+	
 <h3 id="player_question"></h3>
 <h3 id="player_answer"></h3>
-<div id="output" class="col-lg-6"> </div>
+<h2 style="color: white;">Solve It!</h2>
+<div id="output" class="col-lg-6">
+ </div>
 	<br>
-	
-<input type="text" id="word" class="from-control inputtag" placeholder="word">
+	<label class = "edit"> Number 1 </label>
 	<br>
+<input type="text" id="math1" class="from-control inputtag" placeholder="Enter the first Number">
+	<br>
+	<br>
+	<label class = "edit"> Number 2 </label>
+	<br>
+<input type="text" id="math2" class="from-control inputtag" placeholder="Enter the second Number">
+	<br>
+<br>
 <button onclick="send()" class="btn btn-success send" style="width:30%;">Send</button>
 </center>
 
